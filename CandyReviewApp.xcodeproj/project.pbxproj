@@ -16,6 +16,10 @@
 		6308D5742AF1C7680068A5ED /* CandyReviewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308D5732AF1C7680068A5ED /* CandyReviewAppTests.swift */; };
 		6308D57E2AF1C7680068A5ED /* CandyReviewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308D57D2AF1C7680068A5ED /* CandyReviewAppUITests.swift */; };
 		6308D5802AF1C7680068A5ED /* CandyReviewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308D57F2AF1C7680068A5ED /* CandyReviewAppUITestsLaunchTests.swift */; };
+		63FCAE0D2AF45E0F0026D565 /* secondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCAE0C2AF45E0F0026D565 /* secondDetailViewController.swift */; };
+		63FCAE0F2AF45EF50026D565 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63FCAE0E2AF45EF50026D565 /* Property List.plist */; };
+		63FCAE112AF49DBA0026D565 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCAE102AF49DBA0026D565 /* detailViewController.swift */; };
+		63FCAE172AF4CFF10026D565 /* secondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCAE162AF4CFF10026D565 /* secondTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		6308D5792AF1C7680068A5ED /* CandyReviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyReviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6308D57D2AF1C7680068A5ED /* CandyReviewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReviewAppUITests.swift; sourceTree = "<group>"; };
 		6308D57F2AF1C7680068A5ED /* CandyReviewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReviewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63FCAE0C2AF45E0F0026D565 /* secondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailViewController.swift; sourceTree = "<group>"; };
+		63FCAE0E2AF45EF50026D565 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		63FCAE102AF49DBA0026D565 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		63FCAE162AF4CFF10026D565 /* secondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,11 @@
 				6308D55E2AF1C7660068A5ED /* SceneDelegate.swift */,
 				6308D5602AF1C7660068A5ED /* ViewController.swift */,
 				6308D5622AF1C7660068A5ED /* Main.storyboard */,
+				63FCAE162AF4CFF10026D565 /* secondTabViewController.swift */,
+				63FCAE102AF49DBA0026D565 /* detailViewController.swift */,
+				63FCAE0C2AF45E0F0026D565 /* secondDetailViewController.swift */,
 				6308D5652AF1C7680068A5ED /* Assets.xcassets */,
+				63FCAE0E2AF45EF50026D565 /* Property List.plist */,
 				6308D5672AF1C7680068A5ED /* LaunchScreen.storyboard */,
 				6308D56A2AF1C7680068A5ED /* Info.plist */,
 			);
@@ -233,6 +245,7 @@
 			files = (
 				6308D5692AF1C7680068A5ED /* LaunchScreen.storyboard in Resources */,
 				6308D5662AF1C7680068A5ED /* Assets.xcassets in Resources */,
+				63FCAE0F2AF45EF50026D565 /* Property List.plist in Resources */,
 				6308D5642AF1C7660068A5ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FCAE172AF4CFF10026D565 /* secondTabViewController.swift in Sources */,
 				6308D5612AF1C7660068A5ED /* ViewController.swift in Sources */,
 				6308D55D2AF1C7660068A5ED /* AppDelegate.swift in Sources */,
+				63FCAE0D2AF45E0F0026D565 /* secondDetailViewController.swift in Sources */,
+				63FCAE112AF49DBA0026D565 /* detailViewController.swift in Sources */,
 				6308D55F2AF1C7660068A5ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
